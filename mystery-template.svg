@@ -1,0 +1,152 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="400" y="30" font-size="20" font-weight="bold">Mystery Investigation Template</text>
+
+  <!-- Navigation Hexes -->
+  <g transform="translate(700, 50)">
+    <!-- Progress Flow -->
+    <path d="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" fill="none" stroke="black"/>
+    <text x="50" y="30" font-size="12" text-anchor="middle">Progress Flow</text>
+    <text x="45" y="40" font-size="12" text-anchor="middle">12</text>
+    <text x="20" y="60" font-size="12" text-anchor="middle">10,11</text>
+    <text x="80" y="60" font-size="12" text-anchor="middle">2,3</text>
+    <text x="45" y="60" font-size="12" text-anchor="middle">2D6</text>
+    <text x="20" y="80" font-size="12" text-anchor="middle">8,9</text>
+    <text x="80" y="80" font-size="12" text-anchor="middle">4,5</text>
+    <text x="45" y="90" font-size="12" text-anchor="middle">6,7</text>
+
+    <!-- Complication Flow -->
+    <g transform="translate(0, 150)">
+      <path d="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" fill="none" stroke="black"/>
+      <text x="50" y="30" font-size="12" text-anchor="middle">Complication Flow</text>
+      <text x="45" y="90" font-size="12" text-anchor="middle">12</text>
+      <text x="20" y="60" font-size="12" text-anchor="middle">10,11</text>
+      <text x="80" y="60" font-size="12" text-anchor="middle">2,3</text>
+      <text x="45" y="60" font-size="12" text-anchor="middle">2D6</text>
+      <text x="20" y="80" font-size="12" text-anchor="middle">8,9</text>
+      <text x="80" y="80" font-size="12" text-anchor="middle">4,5</text>
+      <text x="45" y="40" font-size="12" text-anchor="middle">6,7</text>
+    </g>
+  </g>
+
+  <!-- Main 19-Hex Flower -->
+  <g transform="translate(50, 100)">
+    <!-- Top Hex (1) - Red Zone -->
+    <g transform="translate(200, 0)">
+      <path d="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" fill="#ffcccc" stroke="black" stroke-width="2"/>
+      <text x="50" y="60" font-size="10" text-anchor="middle">1</text>
+    </g>
+
+    <!-- Row 2 (2-3) - Red Zone -->
+    <g transform="translate(150, 75)">
+      <path d="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" fill="#ffcccc" stroke="black" stroke-width="2"/>
+      <text x="50" y="60" font-size="10" text-anchor="middle">2</text>
+    </g>
+    <g transform="translate(250, 75)">
+      <path d="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" fill="#ffcccc" stroke="black" stroke-width="2"/>
+      <text x="50" y="60" font-size="10" text-anchor="middle">3</text>
+    </g>
+
+    <!-- Row 3 (4-7) - Blue Zone -->
+    <g transform="translate(100, 150)">
+      <path d="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" fill="#e6f3ff" stroke="black" stroke-width="2"/>
+      <text x="50" y="60" font-size="10" text-anchor="middle">4</text>
+    </g>
+    <g transform="translate(200, 150)">
+      <path d="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" fill="#e6f3ff" stroke="black" stroke-width="2"/>
+      <text x="50" y="60" font-size="10" text-anchor="middle">5</text>
+    </g>
+    <g transform="translate(300, 150)">
+      <path d="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" fill="#e6f3ff" stroke="black" stroke-width="2"/>
+      <text x="50" y="60" font-size="10" text-anchor="middle">6</text>
+    </g>
+    <g transform="translate(400, 150)">
+      <path d="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" fill="#e6f3ff" stroke="black" stroke-width="2"/>
+      <text x="50" y="60" font-size="10" text-anchor="middle">7</text>
+    </g>
+
+    <!-- Row 4 (8-10) - Green Zone -->
+    <g transform="translate(150, 225)">
+      <path d="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" fill="#d9ead3" stroke="black" stroke-width="2"/>
+      <text x="50" y="60" font-size="10" text-anchor="middle">8</text>
+    </g>
+    <g transform="translate(250, 225)">
+      <path d="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" fill="#d9ead3" stroke="black" stroke-width="2"/>
+      <text x="50" y="60" font-size="10" text-anchor="middle">9</text>
+    </g>
+    <g transform="translate(350, 225)">
+      <path d="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" fill="#d9ead3" stroke="black" stroke-width="2"/>
+      <text x="50" y="60" font-size="10" text-anchor="middle">10</text>
+    </g>
+
+    <!-- Row 5 (11-14) - Yellow Zone -->
+    <g transform="translate(100, 300)">
+      <path d="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" fill="#fff2cc" stroke="black" stroke-width="2"/>
+      <text x="50" y="60" font-size="10" text-anchor="middle">11</text>
+    </g>
+    <g transform="translate(200, 300)">
+      <path d="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" fill="#fff2cc" stroke="black" stroke-width="2"/>
+      <text x="50" y="60" font-size="10" text-anchor="middle">12</text>
+    </g>
+    <g transform="translate(300, 300)">
+      <path d="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" fill="#fff2cc" stroke="black" stroke-width="2"/>
+      <text x="50" y="60" font-size="10" text-anchor="middle">13</text>
+    </g>
+    <g transform="translate(400, 300)">
+      <path d="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" fill="#fff2cc" stroke="black" stroke-width="2"/>
+      <text x="50" y="60" font-size="10" text-anchor="middle">14</text>
+    </g>
+
+    <!-- Row 6 (15-17) - Purple Zone -->
+    <g transform="translate(150, 375)">
+      <path d="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" fill="#d9d2e9" stroke="black" stroke-width="2"/>
+      <text x="50" y="60" font-size="10" text-anchor="middle">15</text>
+    </g>
+    <g transform="translate(250, 375)">
+      <path d="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" fill="#d9d2e9" stroke="black" stroke-width="2"/>
+      <text x="50" y="60" font-size="10" text-anchor="middle">16</text>
+    </g>
+    <g transform="translate(350, 375)">
+      <path d="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" fill="#d9d2e9" stroke="black" stroke-width="2"/>
+      <text x="50" y="60" font-size="10" text-anchor="middle">17</text>
+    </g>
+
+    <!-- Bottom Row (18-19) - Purple Zone -->
+    <g transform="translate(200, 450)">
+      <path d="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" fill="#d9d2e9" stroke="black" stroke-width="2"/>
+      <text x="50" y="60" font-size="10" text-anchor="middle">18</text>
+    </g>
+    <g transform="translate(300, 450)">
+      <path d="M50,0 L100,25 L100,75 L50,100 L0,75 L0,25 Z" fill="#d9d2e9" stroke="black" stroke-width="2"/>
+      <text x="50" y="60" font-size="10" text-anchor="middle">19</text>
+    </g>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(700, 300)">
+    <text x="0" y="0" font-size="14" font-weight="bold">Zone Guide:</text>
+    <rect x="0" y="10" width="20" height="20" fill="#ffcccc"/>
+    <text x="30" y="25" font-size="12">Red Zone (1-3): Critical</text>
+    
+    <rect x="0" y="40" width="20" height="20" fill="#e6f3ff"/>
+    <text x="30" y="55" font-size="12">Blue Zone (4-7): Evidence</text>
+    
+    <rect x="0" y="70" width="20" height="20" fill="#d9ead3"/>
+    <text x="30" y="85" font-size="12">Green Zone (8-10): Analysis</text>
+    
+    <rect x="0" y="100" width="20" height="20" fill="#fff2cc"/>
+    <text x="30" y="115" font-size="12">Yellow Zone (11-14): Complications</text>
+    
+    <rect x="0" y="130" width="20" height="20" fill="#d9d2e9"/>
+    <text x="30" y="145" font-size="12">Purple Zone (15-19): Leads</text>
+  </g>
+
+  <!-- Tracking Section -->
+  <g transform="translate(700, 500)">
+    <text x="0" y="0" font-size="14" font-weight="bold">Investigation Status:</text>
+    <text x="0" y="30" font-size="12">Current Hex: _____</text>
+    <text x="0" y="50" font-size="12">Flow State: □ Progress □ Complication</text>
+    <text x="0" y="70" font-size="12">Risk Die: □d4 □d6 □d8 □d10 □d12</text>
+    <text x="0" y="90" font-size="12">Clock: □ □ □ □ □ □</text>
+  </g>
+</svg>
