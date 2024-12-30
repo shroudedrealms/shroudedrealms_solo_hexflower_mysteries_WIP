@@ -92,6 +92,3 @@
 |      |     |                                          |                                         |
 
 ---
-
-This updated tracking sheet supports the expanded mechanics of the **Mystery Hex Flower Investigations System**, allowing you to monitor clocks, resources, clues, and movement seamlessly. Let me know if further refinements are needed!
-
