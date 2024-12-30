@@ -1,122 +1,126 @@
-# Mystery HFGE Quick Reference Cards
+# Quick Reference Cards
 
-## Card 1: Navigation & Movement
+## **1. Hex Zone Effects**
+
+### **Red Zone (Critical Revelations)**
+- **Hex 1:** Case Solved - Roll d6 for revelation types (e.g., hidden conspiracy, supernatural truth).
+- **Hex 2:** Major Breakthrough - Key witnesses or documents.
+- **Hex 3:** Critical Evidence - Damning clues like security footage or DNA matches.
+
+### **Yellow Zone (Complications)**
+- **Hex 11:** Red Herring - False leads or misdirections.
+- **Hex 12:** Dead End - Witness disappears or trail goes cold.
+- **Hex 14:** Obstacle - Physical or legal barriers requiring checks.
+
+### **Green Zone (Analysis)**
+- **Hex 8:** Evidence Chain - Connect clues to build patterns.
+- **Hex 9:** Critical Link - Combine data to reveal overlooked connections.
+- **Hex 10:** Analytical Leap - Identify patterns that advance the investigation.
+
+### **Blue Zone (Primary Evidence)**
+- **Hex 4:** Crime Scene Discovery - Examine physical spaces for clues.
+- **Hex 5:** Witness Interviews - Gather testimonies.
+- **Hex 6:** Document Review - Investigate records and letters.
+- **Hex 7:** Surveillance - Analyze recordings, photos.
+
+### **Purple Zone (Leads)**
+- **Hex 15:** Opening Clue - Launch investigation with key evidence.
+- **Hex 16:** Rumor Mill - Uncover gossip or hearsay.
+- **Hex 17:** Local Connection - Engage informants.
+- **Hex 18:** Object of Interest - Suspicious items.
+- **Hex 19:** Hidden Detail - Overlooked elements.
+
+---
+
+## **2. Resource Dice and Uses**
+
+### **Investigation Die (d10)**
+- **Academic Research:** Libraries, archives.
+- **Pattern Recognition:** Linking clues.
+- **Evidence Analysis:** Lab work.
+
+### **Smokes Die (d8)**
+- **Professional Contacts:** Officials, experts.
+- **Street Networks:** Underworld sources.
+
+### **Flashlights Die (d6)**
+- **Crime Scene Analysis:** Physical evidence.
+- **Physical Tracking:** Footprints, trails.
+
+---
+
+## **3. Tactical Movement and Turns**
+
+### **Basic Turn**
+- Spend any resource to shift one hex face.
+- Must narrate justification.
+
+### **Tactical Turn**
+- Spend two matching resources to move to an adjacent hex.
+- Cannot move into **Red Zone** directly.
+
+### **Desperate Turn**
+- Exhaust a resource to move immediately to another zone.
+- Advances **Risk Clock**.
+
+### **Insight Turn**
+- Spend Investigation success to connect distant clues.
+- Enables leaps between non-adjacent hexes.
+
+---
+
+## **4. Clock Management**
+
+### **Types of Clocks**
+- **Time Clock:** Tracks deadlines.
+- **Risk Clock:** Escalates threats.
+- **Clue Clock:** Measures readiness.
+
+### **Advancement Triggers**
+- **+1 Segment:** Enter Yellow Zone.
+- **+1 Segment:** Failed checks.
+- **+1 Segment:** Resource exhaustion.
+- **-1 Segment:** Breakthroughs in Green Zone.
+
+---
+
+## **5. Scene Template**
+
+```markdown
+Scene Name: ________________
+Location: _________________
+Zone Type: ________________
+Resources:
+- Investigation: _______
+- Smokes: _____________
+- Flashlights: __________
+Evidence:
+1. ____________________
+2. ____________________
+Complications:
+1. ____________________
+2. ____________________
+Clock Triggers: _________
 ```
-┌─────────── NAVIGATION HEX ──────────┐
-│            Progress         Complic. │
-│ 12:        Up              Down     │
-│ 10-11:     Upper Left      Up Left  │
-│ 2-3:       Upper Right     Up Right │
-│ 8-9:       Lower Left      Low Left │
-│ 4-5:       Lower Right     Low Right│
-│ 6-7:       Down            Up       │
-└────────────────────────────────────┘
 
-EDGE RULES
-• Wrap within same zone
-• × blocks upward at Case Solved
-• × blocks leaving Yellow without resource
-• Cannot skip zones
+---
 
-ZONES (Bottom to Top)
-• Purple (15-19): Leads/Start
-• Yellow (11-14): Complications
-• Green (8-10): Analysis
-• Blue (4-7): Evidence
-• Red (1-3): Resolution
-```
+## **6. Example Playthrough**
 
-## Card 2: Resources & Checks
-```
-┌──────── RESOURCE DICE ─────────┐
-│ Investigation (d10): Analysis   │
-│ Smokes (d8): Social            │
-│ Flashlights (d6): Physical     │
-└───────────────────────────────┘
+**Opening Scene:**
+- **Location:** Abandoned warehouse (**Blue Zone**).
+- **Goal:** Collect physical evidence and avoid complications.
+- **Resource Roll:** Flashlights die (**d6**).
 
-BASIC CHECKS
-• Roll vs difficulty (usually 4+)
-• Success: Gain information
-• Failure: Step die down
-• Minimum die: d4
+**Complication Triggered:**
+- Yellow Zone shift due to failed check.
+- Introduce false lead and clock advancement.
 
-RESOURCE USE BY ZONE
-Purple: Any resource
-Blue: Match evidence type
-Green: Investigation required
-Yellow: Forced check
-Red: Multiple successes needed
-```
+**Resolution Scene:**
+- Move to **Red Zone** for final confrontation.
+- Evaluate clocks and evidence to determine outcome.
 
-## Card 3: Turn Mechanics & Clock
-```
-┌─────── TURN OPTIONS ──────────┐
-│ Basic Turn                    │
-│ • Spend any resource         │
-│ • Shift one hex face         │
-│ • Must make narrative sense  │
-│                              │
-│ Major Turn                   │
-│ • Spend Investigation        │
-│ • Shift two hex faces       │
-│ • Resource steps down       │
-└──────────────────────────────┘
+---
 
-INVESTIGATION CLOCK
-• 6 segments total
-• +1: Yellow zone entry
-• +1: Failed critical check
-• +1: Major setback
-• Full: Forces conclusion
-```
+This set of quick reference cards summarizes mechanics, resources, movement, and scene templates for easy gameplay!
 
-## Card 4: Zone Effects
-```
-┌─────── ZONE ACTIONS ──────────┐
-RED ZONE (1-3)
-• Case resolution
-• Multiple checks required
-• Cannot enter directly
-
-BLUE ZONE (4-7)
-• Physical evidence (Flashlights)
-• Witness statements (Smokes)
-• Documents (Investigation)
-
-GREEN ZONE (8-10)
-• Process clues
-• Connect evidence
-• Analyze findings
-
-YELLOW ZONE (11-14)
-• Forces resource checks
-• Can trigger Complication Flow
-• Needs resource to escape
-
-PURPLE ZONE (15-19)
-• Starting position
-• New leads
-• Choose any resource
-└──────────────────────────────┘
-```
-
-## Card 5: Scene Resolution
-```
-┌────── SCENE CHECKLIST ────────┐
-1. Determine appropriate resource
-2. Set difficulty (usually 4+)
-3. Make resource check
-4. Roll navigation
-5. Apply edge rules
-6. Resolve outcome
-7. Update clock if needed
-8. Record evidence/notes
-
-DIFFICULTY GUIDE
-3+: Basic tasks
-4+: Standard challenges
-5+: Complex problems
-6+: Major obstacles
-7+: Critical moments
-└──────────────────────────────┘
-```
